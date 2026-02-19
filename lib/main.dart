@@ -33,8 +33,8 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   static const List<Widget> _pages = <Widget>[
-    ClockScreen(),
-    SettingsScreen(),
+    const ClockScreen(),
+    const SettingsScreen(),
   ];
 
   void _onItemTapped(int index) {
